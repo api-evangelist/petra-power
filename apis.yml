@@ -1,7 +1,25 @@
 aid: petra-power
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/petra-power.png
 name: Petra Power
-description: Petra Power is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Petra Power is an on-site power generation company based in Solon, Ohio, and backed by
+  Techstars, building rapidly deployable, high-efficiency generation systems positioned as "the next
+  100GW of on-site power." Its technology runs on natural gas, diesel, or hydrogen, claims up to 3x
+  fuel savings versus conventional generators and turbines, and operates silently and odorlessly for
+  use in populated areas. Target applications include data centers, critical backup power, heavy
+  industry, and utility-scale deployment. Petra Power is a hardware/energy company with no public
+  developer or API surface; this profile is maintained in the API Evangelist network as a company
+  record.
 url: https://raw.githubusercontent.com/api-evangelist/petra-power/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Energy
+- Power Generation
+- Fuel Cells
+- On-Site Power
+- Backup Power
+- Data Centers
+- Clean Energy
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +46,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/petra-power-domain-security.yml
+- type: LLMsTxt
+  url: llms/petra-power-llms.txt
 - type: Website
   url: https://petrapower.com/
+- type: Support
+  url: https://petrapower.com/contact/
+- type: Blog
+  url: https://petrapower.com/press/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/petra-power-llc
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 1
+  pass: local-v1
