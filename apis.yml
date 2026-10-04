@@ -48,7 +48,7 @@ tags:
 - Fuel Cells
 - On-Site Power
 - Backup Power
-- Data-Center
+- Data Center
 - Clean Energy
 tags_raw:
 - Company
@@ -59,6 +59,7 @@ tags_raw:
 - Backup Power
 - Data Centers
 - Clean Energy
+- Data-Center
 apis: []
 maintainers:
 - FN: Kin Lane
